@@ -3,6 +3,10 @@
 
 /** Ionic CSS Variables **/
 :root {
+  --ion-background-color:#ff4c1b;
+  --ion-text-color:#ffffff;
+  --ion-font-family: 'Permanent Marker', cursive;
+  
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -153,10 +157,10 @@
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: #620499;
     --ion-background-color-rgb: 0,0,0;
 
-    --ion-text-color: #ffffff;
+    --ion-text-color: #34ff07;
     --ion-text-color-rgb: 255,255,255;
 
     --ion-color-step-50: #0d0d0d;
@@ -182,6 +186,7 @@
     --ion-item-background: #000000;
 
     --ion-card-background: #1c1c1d;
+    --ion-font-family: 'Permanent Marker', cursive;
   }
 
   .ios ion-modal {
@@ -242,3 +247,20 @@ html {
    */
   --ion-dynamic-font: var(--ion-default-dynamic-font);
 }
+
+:root {
+  --ion-color-gold: #eefc4c;
+  --ion-color-gold-rgb: 238,252,76;
+  --ion-color-gold-contrast: #000000;
+  --ion-color-gold-contrast-rgb: 0,0,0;
+  --ion-color-gold-shade: #d1de43;
+  --ion-color-gold-tint: #f0fc5e;
+  }
+  .ion-color-gold {
+  --ion-color-base: var(--ion-color-gold);
+  --ion-color-base-rgb: var(--ion-color-gold-rgb);
+  --ion-color-contrast: var(--ion-color-gold-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-gold-contrast-rgb);
+  --ion-color-shade: var(--ion-color-gold-shade);
+  --ion-color-tint: var(--ion-color-gold-tint);
+  }
